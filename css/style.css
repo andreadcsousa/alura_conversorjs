@@ -1,0 +1,89 @@
+/* ESTILO BASE */
+
+body {
+    background: url('../img/bg.jpg') no-repeat;
+    background-size: 100%;
+    font-family: 'Roboto Mono',monospace;
+    min-height: 400px;
+}
+
+/* ESTILO DA SEÇÃO */
+
+header {
+    text-align: center;
+    padding: 80px;
+    color: #ffffff;
+}
+  
+h1 {
+    margin: 0 0 5px;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px #000;
+}
+  
+p {
+    margin: 0 20%;
+    padding: 50px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-shadow: 1px 1px 1px #000;
+}
+
+/* ESTILO DO INPUT */
+
+section {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
+article {
+    text-shadow: 1px 1px 1px #000;
+}
+
+#box {
+    height: 25px;
+    border-radius: 5px;
+}
+
+#btn {
+    border: 0;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: lightgray;
+    color: purple;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#btn:hover {    
+    border: 0;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: purple;
+    color: lightgray;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#result {
+    margin: 0 20%;
+    padding: 50px;
+    font-size: 30px;
+    line-height: 1.5;
+    text-shadow: 1px 1px 1px #000;
+
+}
+
+/* DEFINIÇÕES DA ALURA */
+
+.page-logo {
+    width: 300px;
+}
+  
+.alura-logo {
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    right:20px;
+}
