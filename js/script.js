@@ -1,8 +1,3 @@
-// DESAFIO
-
-// Criar calculadora de conversão                           --
-// Criar calculadora de conversão de anos-luz               OK
-
 function converter() {
   var anoLuz = document.getElementById('box')
   var result = document.getElementById('result')
@@ -15,13 +10,3 @@ function converter() {
       result.innerHTML = `<br> ${anoLuzNumero*km} Km`
   }
 }
-
-// REVISÃO
-
-// variáveis: var int - float - string
-// caixas de diálogo: alert - prompt
-// funções: parseInt - parseFloat - toFixed
-// operações: + somar * multiplicar
-// adicionar comentários
-
-// como usar: .toLocaleString('pt-BR');
